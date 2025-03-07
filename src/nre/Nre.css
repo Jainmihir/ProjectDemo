@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+/* Align labels to the left and inputs to the right */
+.selection-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.selection-label {
+    font-weight: bold;
+    flex: 1;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.selection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-box select {
+    width: 150px;
+    height: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
